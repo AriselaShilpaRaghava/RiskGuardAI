@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import shap
 
-model = joblib.load("risk_model.pkl")
+model = joblib.load("risk_model_compressed.pkl")
 
 st.set_page_config(
     page_title="RiskGuard AI",
