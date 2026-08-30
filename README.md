@@ -388,5 +388,12 @@ Current pipeline:
 
 Prediction → Risk Score → Explainability → Explanation Reliability
 
+Model Artifact:
+
+`risk_model_compressed.pkl` contains the trained machine-learning model used by the Streamlit dashboard.
+
+It is a binary serialized model file, so it is not intended to be human-readable like Python source code.
+
+The model is loaded by `app.py` during risk assessment.
 
 
